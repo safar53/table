@@ -1,0 +1,34 @@
+{
+  "name": "table",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "eslint": "node_modules\\.bin\\eslint src --ext .jsx --ext .js",
+    "eslint-fix": "node_modules\\.bin\\eslint src --ext .jsx --ext .js --fix",
+    "stylelint": "node_modules\\.bin\\stylelint src/**/*.scss",
+    "stylelint-fix": "node_modules\\.bin\\stylelint src/**/*.scss --fix",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "sass": "^1.77.6",
+    "stylelint": "^16.6.1",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "vite": "^5.3.1"
+  }
+}

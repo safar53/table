@@ -1,0 +1,23 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #3f85a8;
+  }
+}
+
+.rotate-90deg {
+  transform: rotate(-90deg);
+}
